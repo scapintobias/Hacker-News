@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@import './index.css';
+
+// Import Fonts
+@import './type/type.css';
+
+//Type
+
+$international: 'NB International Pro';
+$bodoni: 'ATOurBodoni';
+$century: 'Century Expanded LT Std';
+$ourheadline: 'Our Headline';
+$permanent: 'URWPermanentHeadlineW01-Reg';
+$garamond: 'garamond-premier-pro-display';
+$futura: 'futura-pt';
+$futura-bold: 'futura-pt-bold';
+$minion-black: 'minion-std-black';
+$minion-subhead: 'minion-pro-subhead';
+$minion: 'minion-pro-display';
+$bee: 'bee';
+$caslon: 'big-caslon-fb';
+$mongoose: 'mongoose';
+$helvetica: 'neue-haas-grotesk-display';
+$helvetica-text: 'neue-haas-grotesk-text';
+
+// Set your brand colors
+$black: #010d1b;
+$red: #b90e2b;
+$brown: #171618;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$family-sans-serif: $helvetica;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $black;
+$link: $red;
+$success: #d35400;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/form.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/components/navbar.sass';
+@import '../node_modules/bulma/sass/layout/hero.sass';
+@import '../node_modules/bulma/sass/layout/section.sass';
